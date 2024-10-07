@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Animación -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Portafolio Xime</title>
+</head>
+
+<body>
+    <!-- Navegación -->
+    <nav>
+        <h1>Ximena López</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="about">
+        <img src="/assets/images/fotoperfil.jpg" alt="Perfil de Ximena" class="hero-img">
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+                Mi nombre es Ximena Rojas López estudió la prepa en el Bachillerato Estatal plantel 06 con especialidad en inteligencia artificial.
+                <br>Me considero una persona que le gusta trabajar,me gusta aprender nuevas cosas me llama mucho la atención los temas de tecnología.Y mi interes por la tecnología es por las clases que llevó en la prepa al igual qué una profesora me orienta y es un tema interesante.
+        </div>
+    </section>
+
+    <!-- More About -->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+            Soy Ximena Rojas López y actualmente estudio en el Bachillerato Estatal plantel 06 de San Miguel Contla, donde me especializo en programación y componentes de inteligencia artificial. Estoy enfocada en aprender tecnologías emergentes y desarrollar habilidades que me permitan sobresalir en el ámbito de la tecnología.
+        </p>
+        <p>
+            Llevo materias como "Análisis e inteligencia de datos", "Inteligencia Artificial: Principios Básicos" e "Introducción a la robótica". Estas asignaturas me están ayudando a fortalecer mis conocimientos en áreas que me apasionan y que tienen un gran futuro profesional.
+        </p>
+        <p>
+            Me considero una persona que sabe comunicarse bien con los demás. Me gusta escuchar y colaborar en equipo, cualidades que me permiten trabajar de manera eficiente en proyectos grupales y resolver problemas de manera conjunta.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-html-5.svg" alt="HTML" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/icons8-css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-bootstrap.svg" alt="Boostrap" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/icons8-git.svg" alt="Git" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some Of My Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="assets/images/pinterestcopia.jpg" alt="Pinterest interface" loading="lazy" class="project-pic">
+                <h3 class="project-title">Pinterest Interface</h3>
+                <p class="project-details">This project is a clone of the Pinterest home interface, created purely with HTML5 and CSS3</p>
+                <a href="https://github.com/Xime-1506/Clon-pinterest" target="_blank">Check it out!</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/relsb.jpg" alt="Website Rels B" loading="lazy" class="project-pic">
+                <h3 class="project-title">Website Rels B</h3>
+                <p class="project-details">This is a website project about the biography and social media of Rels B, created purely with HTML5 and CSS3</p>
+                <a href="https://github.com/Xime-1506/sitio-web-Rels-B" target="_blank">Check it out!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Redes Sociales -->
+    <section id="contact">
+        <div class="socials">
+            <!--LinkedIn-->
+            <a href="#" target="_blank"><img src="assets/icons/linkedin.png" alt="LinkedIn" loading="lazy" class="socicon"></a>
+            <!--Gibhut-->
+            <a href="https://github.com/Xime-1506" target="_blank"><img src="assets/icons/github.png" alt="GitHub" loading="lazy" class="socicon"></a>
+            <!--Instagram-->
+            <a href="https://www.instagram.com/ximena_lopez1721/profilecard/?igsh=MTQ3YmhicWMxNWVmbw== " target="_blank"><img src="assets/icons/instagram.png" alt="Instagram" loading="lazy" class="socicon"></a>
+            <!--WhatsApp-->
+            <a href="https://wa.me/522411154850" target="_blank"><img src="assets/icons/whatsapp.png" alt="WhatsApp" loading="lazy" class="socicon"></a>
+        </div>
+    </section>
+
+   <!--Scroll button-->
+   <i class="scroll-up" id="scroll-up">
+    <img src="assets/icons/arrow_up.gif" class="socicon up-arrow" alt="scroll up">
+    </i>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Built with {💗} by Ximena López 🌻🌝✨</p>
+    </footer>
+
+     <!-- JavaScript -->
+     <script src="app.js"></script>
+
+</body>
+
+</html>
